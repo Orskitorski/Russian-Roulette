@@ -1,0 +1,14 @@
+C:\Code\C#\Russian Roulette\bin\Debug\net8.0\Russian Roulette.exe
+C:\Code\C#\Russian Roulette\bin\Debug\net8.0\Russian Roulette.deps.json
+C:\Code\C#\Russian Roulette\bin\Debug\net8.0\Russian Roulette.runtimeconfig.json
+C:\Code\C#\Russian Roulette\bin\Debug\net8.0\Russian Roulette.dll
+C:\Code\C#\Russian Roulette\bin\Debug\net8.0\Russian Roulette.pdb
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.AssemblyInfoInputs.cache
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.AssemblyInfo.cs
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.csproj.CoreCompileInputs.cache
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.dll
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\refint\Russian Roulette.dll
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.pdb
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.genruntimeconfig.cache
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\ref\Russian Roulette.dll
