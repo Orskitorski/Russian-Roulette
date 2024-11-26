@@ -1,6 +1,8 @@
 //Russian Roulette
 
 using System.ComponentModel;
+using System.Formats.Asn1;
+using System.Runtime.InteropServices.Marshalling;
 using System.Runtime.Versioning;
 
 Random rnd = new Random();
@@ -135,10 +137,10 @@ while (true)
     }
 
     //Asks if they want to play again, if so, game starts over, if not, game closes
-    Console.WriteLine("Do you want to play again? y/n");
-
-    if (Console.ReadLine() == "n")
+    string answer = YNAnswerValidation("Do you want to play again? y/n");
+    if (answer == "n" || answer == "N")
     {
+        Console.WriteLine("Goodbye.");
         break;
     }
 }
@@ -177,7 +179,7 @@ static int IntAnswerValidation(string question)
         else
         {
             Console.Clear();
-            Console.WriteLine("That is not a valid response");
+            Console.WriteLine("You have to answer with a number.");
         }
     }
 }
@@ -185,7 +187,6 @@ static int IntAnswerValidation(string question)
 //Method that checks so that you don't answer with a blank space
 static string StringAnswerValidation(string question)
 {
-
     while (true)
     {
         Console.WriteLine(question);
@@ -197,7 +198,26 @@ static string StringAnswerValidation(string question)
         else
         {
             Console.Clear();
-            Console.WriteLine("You cannot answer with nothing here");
+            Console.WriteLine("You cannot answer with nothing here.");
+        }
+    }
+}
+
+//Method that checks so that you answer with y/n
+static string YNAnswerValidation(string question)
+{
+    while (true)
+    {
+        Console.WriteLine(question);
+        string answer = Console.ReadLine();
+        if (answer == "y" || answer == "Y" || answer == "n" || answer == "N")
+        {
+            return answer;
+        }
+        else
+        {
+            Console.Clear();
+            Console.WriteLine("You have to answer with (y) or (n).");
         }
     }
 }

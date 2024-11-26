@@ -12,3 +12,4 @@ C:\Code\C#\Russian Roulette\obj\Debug\net8.0\refint\Russian Roulette.dll
 C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.pdb
 C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.genruntimeconfig.cache
 C:\Code\C#\Russian Roulette\obj\Debug\net8.0\ref\Russian Roulette.dll
+C:\Code\C#\Russian Roulette\obj\Debug\net8.0\Russian Roulette.sourcelink.json
